@@ -39,8 +39,9 @@ public class Employee {
       hours = h;
     }
     
-    public String giveRaise(String newname) {
-      return ()
+    public double giveRaise() {
+      wage = wage + 1.00;
+      return wage;
     }
   }
 }
